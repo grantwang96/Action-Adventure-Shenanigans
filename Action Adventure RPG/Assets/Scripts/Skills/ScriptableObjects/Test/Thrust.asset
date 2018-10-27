@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40811195fbe85b24a858d3d9f26ded91, type: 3}
+  m_Name: Thrust
+  m_EditorClassIdentifier: 
+  duration: 0.25
+  allowOverride: 0
+  markerPrefab: {fileID: 1392863289582334, guid: e8bb6e182c1894a4bae24345bfc485d2,
+    type: 2}
+  effectiveRange: 0
+  reach: 1
