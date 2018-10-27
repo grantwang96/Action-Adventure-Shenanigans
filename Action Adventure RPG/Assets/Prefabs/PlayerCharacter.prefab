@@ -129,11 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58826db057b809449a2120190e3a2913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
-  _preoccupied: 0
+  _speed: 5
   movementVector: {x: 0, y: 0}
   lookVector: {x: 0, y: 0}
-  _attackComboIndex: 0
 --- !u!114 &114995302923725862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,8 +143,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c46dff51a7fd8b4a9686e02a8193f42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _preoccupied: 0
+  _attackComboIndex: 0
+  attackCombo:
+  - {fileID: 11400000, guid: 8f634a75dfed55845bd2949ab2a3ba7b, type: 2}
+  - {fileID: 11400000, guid: 02558fb3f6a7ea54daff9e222b392889, type: 2}
+  - {fileID: 11400000, guid: 3b9cdd356cafa2a42998c2c63b8b1901, type: 2}
   _movementVector: {x: 0, y: 0}
-  _lookVector: {x: 0, y: 0}
+  _lookVector: {x: 0, y: 1}
 --- !u!212 &212986431511295794
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -179,8 +183,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1018810137
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ac0e3c5e6ca550a439849dd398955230, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40811195fbe85b24a858d3d9f26ded91, type: 3}
   m_Name: Backhand Swing
   m_EditorClassIdentifier: 
+  preoccupiesCharacter: 1
   duration: 0.25
   allowOverride: 0
   markerPrefab: {fileID: 1392863289582334, guid: e8bb6e182c1894a4bae24345bfc485d2,

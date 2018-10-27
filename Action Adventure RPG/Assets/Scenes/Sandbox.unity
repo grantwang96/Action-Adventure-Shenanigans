@@ -239,11 +239,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114995302923725862, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: attackCombo.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4226714983220016, guid: 94e5dfc95606bfd40a5c15cd0edbb782, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -274,34 +269,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4226714983220016, guid: 94e5dfc95606bfd40a5c15cd0edbb782, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114031557945368066, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: _speed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114995302923725862, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: attackCombo.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f634a75dfed55845bd2949ab2a3ba7b,
-        type: 2}
-    - target: {fileID: 114995302923725862, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: attackCombo.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 02558fb3f6a7ea54daff9e222b392889,
-        type: 2}
-    - target: {fileID: 114995302923725862, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: attackCombo.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 3b9cdd356cafa2a42998c2c63b8b1901,
-        type: 2}
-    - target: {fileID: 114995302923725862, guid: 94e5dfc95606bfd40a5c15cd0edbb782,
-        type: 2}
-      propertyPath: _lookVector.y
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
